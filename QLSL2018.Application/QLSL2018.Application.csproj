@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QLSL2018.Data.FF\QLSL2018.Data.FF.csproj" />
+    <ProjectReference Include="..\QLSL2018.Data\QLSL2018.Data.csproj" />
+    <ProjectReference Include="..\QLSL2018.Utilities\QLSL2018.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
