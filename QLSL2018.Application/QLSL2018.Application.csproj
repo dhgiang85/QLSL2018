@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\QLSL2018.Data.FF\QLSL2018.Data.FF.csproj" />
     <ProjectReference Include="..\QLSL2018.Data\QLSL2018.Data.csproj" />
     <ProjectReference Include="..\QLSL2018.Utilities\QLSL2018.Utilities.csproj" />
